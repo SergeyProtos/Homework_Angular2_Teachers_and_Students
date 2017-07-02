@@ -1,0 +1,12 @@
+<h4>You can add new teacher here:</h4>
+<p>Enter new teacher's name</p>
+<textarea #newTeacherName cols="50" rows="2"></textarea>
+<br>
+<p>Enter new teacher's surname</p>
+<textarea #newTeacherSurname cols="50" rows="2"></textarea>
+<br>
+<p>Enter new teacher's course</p>
+<textarea #newTeacherCourse cols="50" rows="2"></textarea>
+<br>
+<button (click)="addTeacher(newTeacherName, newTeacherSurname, newTeacherCourse)">Add new teacher
+</button>

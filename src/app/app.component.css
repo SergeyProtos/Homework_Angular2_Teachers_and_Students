@@ -1,0 +1,9 @@
+.teachers {
+    float: left;
+    margin-left: 150px;
+    }
+
+.students {
+    float: right;
+    margin-right: 200px;
+}

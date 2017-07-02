@@ -1,0 +1,14 @@
+<h4>
+  Teacher's list:
+</h4>
+<ul>
+  <li *ngFor="let teacher of teachers; let i = index">
+    Teacher: {{teacher.text2}} {{teacher.text1}}
+    - Course: {{teacher.text3}}
+    <button (click)="removeTeacher(i)">Remove</button>
+  </li>
+</ul>
+  
+
+
+
